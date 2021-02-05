@@ -4,7 +4,7 @@
   
   An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
-<iframe src="https://drive.google.com/file/d/13uNZ79MUOcQ1Y7mF9ib89UL4k7icrXFl/preview" width="640" height="480"></iframe>
+![](notetaker.gif)
 
 
   ## Table of Contents
