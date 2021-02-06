@@ -28,6 +28,10 @@ app.get("*", function(req, res) {
     res.sendFile(path.join(mainDir, "index.html"));
 });
 
+app.get("/", function(req, res) {
+    res.json(path.join(__dirname, "public/index.html"));
+  });
+
 app.post("/api/notes", function(req, res) {
     let savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
     let newNote = req.body;
